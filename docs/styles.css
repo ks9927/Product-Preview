@@ -21,9 +21,54 @@
   --f-font-weight: 700;
 }
 
+body {
+  min-height: 100vh;
+  background-color: var(--cream);
+  font-size: var(--p-font);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.wrapper {
+  background-color: var(--white);
+  width: 50%;
+  display: flex;
+}
 
+img {
+  width: 70%;
+}
 
+.info {
+  margin-left: 2rem;
+}
+
+.heading, .description, .old-price, button {
+  font-family: var(--m-font);
+  font-weight: var(--sm-m-font);
+}
+.title, .new-price {
+  font-family: var(--f-font);
+  font-weight: var(--f-font-weight);
+}
+.heading, .description, .old-price {
+  color: var(--dark-gray-blue);
+}
+
+.new-price {
+  color:var(--dark-cyan);
+}
+
+.heading {
+  text-transform: uppercase;
+}
+
+button {
+  background-color: var(--dark-cyan);
+  color: var(--white);
+  font-weight: var(--lg-m-font);
+}
 
 
 
