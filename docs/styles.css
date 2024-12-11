@@ -38,7 +38,7 @@ body {
 }
 
 .desktop-image {
-  max-width: 43%;
+  max-width: 50%;
 }
 .mobile-image {
   display: none;
@@ -46,6 +46,7 @@ body {
 
 .info {
   margin-left: 2rem;
+  padding-bottom: 5rem;
 }
 
 .heading, .description, .old-price, button {
@@ -93,7 +94,7 @@ button {
   font-weight: var(--lg-m-font);
   border: solid var(--dark-cyan);
   border-radius: 5px;
-  width: 20rem;
+  width: 15rem;
   height: 3rem;
 }
 
