@@ -103,6 +103,12 @@ button {
   height: 3rem;
 }
 
+button:hover {
+  cursor: pointer;
+  background-color: var(--v-dark-blue);
+  border: solid var(--v-dark-blue);
+}
+
 
 
 
