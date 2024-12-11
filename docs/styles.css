@@ -22,7 +22,7 @@
 }
 
 body {
-  min-height: 100vh;
+  height: 100vh;
   background-color: var(--cream);
   font-size: var(--p-font);
   display: flex;
@@ -32,12 +32,16 @@ body {
 
 .wrapper {
   background-color: var(--white);
-  width: 50%;
+  width: 65%;
   display: flex;
+ 
 }
 
-img {
-  width: 70%;
+.desktop-image {
+  width: 65%;
+}
+.mobile-image {
+  display: none;
 }
 
 .info {
@@ -62,12 +66,35 @@ img {
 
 .heading {
   text-transform: uppercase;
+  margin-top: 2rem;
 }
 
+.title {
+  width: 15rem;
+  margin-top: 1rem;
+}
+.description {
+  text-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.new-price {
+  margin-top: 2rem;
+}
+.old-price {
+  position: relative;
+  left: 5rem;
+  bottom: 1.2rem;
+  text-decoration: line-through;
+}
 button {
   background-color: var(--dark-cyan);
   color: var(--white);
   font-weight: var(--lg-m-font);
+  border: solid var(--dark-cyan);
+  border-radius: 5px;
+  width: 20rem;
+  height: 3rem;
 }
 
 
