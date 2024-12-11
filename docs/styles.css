@@ -32,13 +32,13 @@ body {
 
 .wrapper {
   background-color: var(--white);
-  width: 65%;
+  max-width: 50%;
   display: flex;
  
 }
 
 .desktop-image {
-  width: 65%;
+  max-width: 43%;
 }
 .mobile-image {
   display: none;
