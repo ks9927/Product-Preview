@@ -34,11 +34,14 @@ body {
   background-color: var(--white);
   max-width: 50%;
   display: flex;
+  border-radius: 10px;
  
 }
 
 .desktop-image {
   max-width: 50%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 .mobile-image {
   display: none;
@@ -46,7 +49,7 @@ body {
 
 .info {
   margin-left: 2rem;
-  padding-bottom: 5rem;
+
 }
 
 .heading, .description, .old-price, button {
