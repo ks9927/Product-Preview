@@ -32,14 +32,14 @@ body {
 
 .wrapper {
   background-color: var(--white);
-  max-width: 50%;
+  width: 50%;
   display: flex;
   border-radius: 10px;
  
 }
 
 .desktop-image {
-  max-width: 50%;
+  width: 50%;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -115,8 +115,35 @@ button:hover {
 
 
 
+@media screen and (max-width: 900px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
 
+.desktop-image {
+  width: 100%;
+}
 
+}
+
+@media screen and (max-width: 500px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .desktop-image {
+    display: none;
+  }
+
+  .mobile-image {
+    display: block;
+    width: 100%;
+  }
+    
+}
 
 
 
